@@ -57,6 +57,7 @@ const Quiz = ({
   const [incorrectAudio, _i, incorrectControls] = useAudio({
     src: "/incorrect.wav",
   });
+
   const [pending, startTransition] = useTransition();
 
   const [lessonId] = useState(initialLessonId);
